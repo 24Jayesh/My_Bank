@@ -1,0 +1,265 @@
+ /*
+====================================================================================================================================================================
+                                                    Start Base Properties 
+====================================================================================================================================================================
+*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+   
+    color: black;
+    background: rgb(175,169,185);
+   background: linear-gradient(90deg, rgba(175,169,185,1) 0%, rgba(47,58,163,1) 100%);
+}
+
+header {
+	width: 100%;
+	height: 70px;
+    background: rgb(17,4,88);
+    background: linear-gradient(90deg, rgba(17,4,88,1) 0%, rgba(2,3,85,1) 100%);
+    left: 0;
+}
+.bank-name{
+    float: right;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 20px;
+    margin-right: 90px;
+
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    color: black;
+    margin-top: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+    font-style: oblique;
+}
+nav {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 22px;
+    font-size: 20px;
+}
+
+table{ 
+    border-collapse:collapse; 
+    width:100%;
+    height:100px;
+    border:5;
+}
+td{
+    padding: 12px;
+    margin-bottom: 10px;
+}
+th{
+    font-size: 20px;
+    background: rgb(8,4,29);
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+tr{
+    color: black;
+    font-size: 20px;
+    background: rgb(165, 162, 162);
+    padding: 10px;
+}
+.item-decoration{
+    text-align: center;
+}
+
+
+.text-decoration {
+	color: white;
+	text-decoration: none;
+	font-weight: 2em;
+	font-family: 'roboto';
+	margin-right: 20px;
+    padding: 22px;
+    border-radius:20px;
+}
+.text-decoration:hover {
+    color: black;
+    background:rgb(235, 215, 184);  
+    /*padding: 18px */
+}
+
+
+td > a{
+    color: white;
+    padding: 10px;
+}
+td > a:hover{
+    border-color: black;
+    color: black;
+   
+}
+.btn-style{
+    width: 59%;
+    height: 150%;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 0px;
+    padding: 0px;
+    text-decoration: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+/*.btn-style:hover{
+
+}*/
+
+
+button{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: none;
+    background: rgb(17,4,88);;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+a{
+    color: white;
+}
+button:hover{
+    background: linear-gradient(90deg, rgba(175,169,185,1) 0%, rgba(47,58,163,1) 100%);
+    color: black;
+}
+
+/*
+====================================================================================================================================================================
+                                                    Start Footer
+====================================================================================================================================================================
+*/
+
+body > footer {
+    width: 100%;
+    height: 70px;
+    /*background: #172035;*/
+    background: rgb(17,4,88);
+    background: linear-gradient(90deg, rgba(17,4,88,1) 0%, rgba(2,3,85,1) 100%);
+    position: absolute;
+    top: 664px;
+    left: 0;
+}
+
+body > footer > p {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-size: 1em;
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-shadow: 4px 2px 3px rgba(255,255,255,.2), 2px 2px 2px rgba(110,174,206,0);
+    padding-left: 20px;
+}
+h2{
+    padding: 8px;
+    width: 96.7%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+.tran{
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+h3{
+    color: rgb(51, 50, 50);
+    font-style: italic;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-weight:bold;
+}
+
+h4{
+    
+    font-size: 40px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+label{
+    margin-left: 80px;
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: cursive;
+}
+form{
+    width: 60%;
+    margin-left: 250px;
+    margin-top:-20px;
+    border:2px solid rgb(216, 224, 105); 
+    box-shadow: 3px 5px 15px rgb(228, 229, 235);
+    border-radius: 10px;
+
+}
+select,input{
+    margin-left: 80px;
+    font-size: 22px;
+    width: 60%;
+    height: 33px;
+   /* border: 2px solid black;*/
+    box-shadow: 2px 5px 15px rgb(12, 18, 58);
+    border-radius: 10px;
+    background: rgb(233, 232, 214);
+    color:rgba(153, 28, 12, 0.884);
+    
+}
+.t-margin{
+    margin-left: 80px;
+}
+.btn-size{
+    margin-top: 70px;
+    margin-left: 500px;
+}
+
+.btn-position{
+    margin-left: 640px;
+
+}
+::placeholder{
+    color: rgb(185, 181, 181);
+    font-size: 16px;
+    
+
+}
+section{
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+.page-link{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(141, 6, 33);
+    font-weight: 800;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    
+
+}
+
+/*
+====================================================================================================================================================================
+                                                    End Footer
+====================================================================================================================================================================
+*/
